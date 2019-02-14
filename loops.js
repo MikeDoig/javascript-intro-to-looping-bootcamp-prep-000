@@ -7,7 +7,6 @@ for (let i = 0; i<25; i++) {
 }
 return array;
 }
-<<<<<<< HEAD
 function whileLoop(number) {
   while (number > 0) {
     console.log(--number);
@@ -25,11 +24,9 @@ do {
   console.log("I run once regardless.");
 }
     while (incrementVariable() < number);
-=======
 function whileLoop(n) {
   while (n > 0) {
     console.log(n-1);
   }
   return "done";
->>>>>>> 65eddd14aec6a70e38fc2058938da46edb625831
 }
